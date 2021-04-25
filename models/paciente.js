@@ -1,6 +1,6 @@
 const db = require('../util/database');
 
-module.exports = class Grocery {
+module.exports = class Paciente {
     constructor(idPaciente, nomePaciente, cpfPaciente, leito, data_internacao, data_alta) {
         this.idPaciente = idPaciente;
         this.nomePaciente = nomePaciente;
